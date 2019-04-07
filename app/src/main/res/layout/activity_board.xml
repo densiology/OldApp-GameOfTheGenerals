@@ -1,0 +1,1191 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    tools:context=".BoardActivity"
+    android:id="@+id/container" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/black" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:padding="5dp"
+            android:orientation="horizontal" >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                <ImageView
+                    android:id="@+id/y1"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/gen5star_img"
+	                android:onClick="clickY1"
+	                android:tag="dgray_xgen5star" />
+                <ImageView
+                    android:id="@+id/y4"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/gen2star_img"
+	                android:onClick="clickY4"
+	                android:tag="lgray_xgen2star" />
+                <ImageView
+                    android:id="@+id/y7"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/collt_img"
+	                android:onClick="clickY7"
+	                android:tag="dgray_xcollt" />
+                <ImageView
+                    android:id="@+id/y10"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/lieut1st_img"
+	                android:onClick="clickY10"
+	                android:tag="lgray_xlieut1st" />
+                <ImageView
+                    android:id="@+id/y13"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/spy_img"
+	                android:onClick="clickY13"
+	                android:tag="dgray_xspy" />
+                <ImageView
+                    android:id="@+id/y16"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/private_img"
+	                android:onClick="clickY16"
+	                android:tag="lgray_xprivate" />
+                <ImageView
+                    android:id="@+id/y19"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/private_img"
+	                android:onClick="clickY19"
+	                android:tag="dgray_xprivate" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                <ImageView
+                    android:id="@+id/y2"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/gen4star_img"
+	                android:onClick="clickY2"
+	                android:tag="lgray_xgen4star" />
+                <ImageView
+                    android:id="@+id/y5"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/gen1star_img"
+	                android:onClick="clickY5"
+	                android:tag="dgray_xgen1star" />
+                <ImageView
+                    android:id="@+id/y8"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/major_img"
+	                android:onClick="clickY8"
+	                android:tag="lgray_xmajor" />
+                <ImageView
+                    android:id="@+id/y11"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/lieut2nd_img"
+	                android:onClick="clickY11"
+	                android:tag="dgray_xlieut2nd" />
+                <ImageView
+                    android:id="@+id/y14"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/spy_img"
+	                android:onClick="clickY14"
+	                android:tag="lgray_xspy" />
+                <ImageView
+                    android:id="@+id/y17"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/private_img"
+	                android:onClick="clickY17"
+	                android:tag="dgray_xprivate" />
+                <ImageView
+                    android:id="@+id/y20"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/private_img"
+	                android:onClick="clickY20"
+	                android:tag="lgray_xprivate" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                <ImageView
+                    android:id="@+id/y3"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/gen3star_img"
+	                android:onClick="clickY3"
+	                android:tag="dgray_xgen3star" />
+                <ImageView
+                    android:id="@+id/y6"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/col_img"
+	                android:onClick="clickY6"
+	                android:tag="lgray_xcol" />
+                <ImageView
+                    android:id="@+id/y9"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/capt_img"
+	                android:onClick="clickY9"
+	                android:tag="dgray_xcapt" />
+                <ImageView
+                    android:id="@+id/y12"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/sgt_img"
+	                android:onClick="clickY12"
+	                android:tag="lgray_xsgt" />
+                <ImageView
+                    android:id="@+id/y15"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/flag_img"
+	                android:onClick="clickY15"
+	                android:tag="dgray_xflag" />
+                <ImageView
+                    android:id="@+id/y18"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/private_img"
+	                android:onClick="clickY18"
+	                android:tag="lgray_xprivate" />
+                <ImageView
+                    android:id="@+id/y21"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/private_img"
+	                android:onClick="clickY21"
+	                android:tag="dgray_xprivate" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp" >
+            <TextView
+                android:id="@+id/your_txtview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/arrange"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:textColor="@color/light_green" />
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+    	android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="horizontal" >
+       	<LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickA1"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickB1"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/c1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickC1"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/d1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickD1"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/e1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickE1"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/f1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickF1"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/g1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickG1"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/h1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickH1"
+                android:tag="lgreen" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickA2"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickB2"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/c2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickC2"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/d2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickD2"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/e2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickE2"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/f2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickF2"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/g2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickG2"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/h2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickH2"
+                android:tag="dgreen" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/a3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickA3"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickB3"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/c3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickC3"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/d3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickD3"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/e3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickE3"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/f3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickF3"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/g3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickG3"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/h3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickH3"
+                android:tag="lgreen" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/a4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickA4"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickB4"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/c4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickC4"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/d4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickD4"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/e4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickE4"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/f4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickF4"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/g4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickG4"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/h4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickH4"
+                android:tag="dgreen" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/a5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickA5"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickB5"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/c5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickC5"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/d5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickD5"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/e5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickE5"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/f5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickF5"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/g5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickG5"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/h5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickH5"
+                android:tag="lgreen" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/a6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickA6"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickB6"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/c6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickC6"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/d6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickD6"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/e6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickE6"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/f6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickF6"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/g6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickG6"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/h6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickH6"
+                android:tag="dgreen" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/a7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickA7"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickB7"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/c7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickC7"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/d7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickD7"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/e7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickE7"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/f7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickF7"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/g7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickG7"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/h7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickH7"
+                android:tag="lgreen" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/a8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickA8"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickB8"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/c8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickC8"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/d8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickD8"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/e8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickE8"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/f8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickF8"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/g8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickG8"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/h8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickH8"
+                android:tag="dgreen" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/a9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickA9"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickB9"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/c9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickC9"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/d9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickD9"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/e9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickE9"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/f9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickF9"
+                android:tag="lgreen" />
+            <ImageView
+                android:id="@+id/g9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/dark_green"
+                android:onClick="clickG9"
+                android:tag="dgreen" />
+            <ImageView
+                android:id="@+id/h9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:background="@color/light_green"
+                android:onClick="clickH9"
+                android:tag="lgreen" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/black" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:padding="5dp"
+            android:orientation="horizontal" >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                <ImageView
+                    android:id="@+id/z1"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z4"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z7"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z10"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z13"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z16"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z19"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/censored_img" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                <ImageView
+                    android:id="@+id/z2"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z5"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z8"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z11"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z14"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z17"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z20"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/censored_img" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                <ImageView
+                    android:id="@+id/z3"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z6"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z9"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z12"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z15"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z18"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/light_gray"
+	                android:src="@drawable/censored_img" />
+                <ImageView
+                    android:id="@+id/z21"
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1"
+	                android:padding="2dp"
+	                android:background="@color/dark_gray"
+	                android:src="@drawable/censored_img" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+            <Button
+                android:id="@+id/main_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:text="@string/start"
+                android:layout_centerInParent="true"
+                android:onClick="clickBtn" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

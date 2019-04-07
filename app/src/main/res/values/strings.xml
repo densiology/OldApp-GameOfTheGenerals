@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Game Of The Generals</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="play_button">PLAY</string>
+    <string name="select_difficulty_title">Select \nDifficulty:</string>
+    <string name="easy_option">Easy</string>
+    <string name="medium_option">Medium</string>
+    <string name="hard_option">Hard</string>
+    <string name="start_image_content_desc">Game of the Generals: The Mobile Board Game</string>
+    <string name="copyright">App made by: Dennis Espiritu</string>
+
+    <string name="exit_message">Are you sure you want to exit Game of the Generals?</string>
+    <string name="exit_yes">Exit</string>
+    <string name="exit_no">Cancel</string>
+    <string name="quit_message">Are you sure you want to quit the current game (it will not be saved)?</string>
+    <string name="quit_yes">Quit</string>
+    <string name="quit_no">Cancel</string>
+    <string name="remaining_message">Please put all your units on the board.</string>
+    <string name="remaining_yes">OK</string>
+    <string name="pending_message">Please make a move.</string>
+    <string name="pending_yes">OK</string>
+    <string name="capture_flag_message">YOU WON! You captured the enemy\'s flag.</string>
+    <string name="captured_flag_message">YOU LOST! The enemy has captured your flag.</string>
+    <string name="flag_charge_message">YOU LOST! You moved your flag to a non-flag enemy unit.</string>
+    <string name="flag_charged_message">YOU WON! The enemy moved its flag to one of your non-flag units.</string>
+    <string name="you_flag_message">YOU WIN! Your flag reached the enemy\'s end with no enemies beside it.</string>
+    <string name="enemy_flag_message">YOU LOST! The enemy flag reached your end without your units beside it.</string>
+    <string name="end_game_yes">OK</string>
+    
+    <string name="your_turn">Your Turn</string>
+    <string name="enemys_turn">Enemy\'s Turn. Please wait.</string>
+    <string name="arrange">Arrange your units first.</string>
+    <string name="start">Start</string>
+    <string name="move">Move</string>
+    
+</resources>

@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_major_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/major_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_capt_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/capt_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/raw_whoop_short.wav.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/raw/whoop_short.wav"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_sgt_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/sgt_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/raw_whoop.wav.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/raw/whoop.wav"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_lieut1st_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/lieut1st_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_flag_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/flag_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_private_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/private_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_gen3star_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/gen3star_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/raw_fling.mp3.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/raw/fling.mp3"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_col_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/col_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/raw_huh.wav.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/raw/huh.wav"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/raw_tap.wav.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/raw/tap.wav"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/menu_blank.xml.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/menu/blank.xml"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_start_image.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/start_image.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_collt_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/collt_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_gen1star_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/gen1star_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/raw_loser.wav.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/raw/loser.wav"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/menu_entry.xml.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/menu/entry.xml"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_gen4star_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/gen4star_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/raw_activity_transition.wav.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/raw/activity_transition.wav"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_spy_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/spy_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_gen2star_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/gen2star_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/raw_yeah.wav.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/raw/yeah.wav"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/layout_activity_entry.xml.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/layout/activity_entry.xml"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_gen5star_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/gen5star_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_censored_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/censored_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/layout_activity_board.xml.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/layout/activity_board.xml"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_lieut2nd_img.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/lieut2nd_img.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/raw_awww.wav.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/raw/awww.wav"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/raw_victory.wav.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/raw/victory.wav"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/drawable_ic_launcher.png.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/Users/dennis/Development/Workspace/Android/Personal/DevProd/GameOfTheGenerals/app/src/main/res/menu/main.xml"
+    }
+]
